@@ -1,7 +1,5 @@
 # hazardousasteroid
 
-![Screenshot](screenshot.png)
-
                         ██   ██  █████  ███████  █████  ██████  ██████   ██████  ██    ██ ███████
                         ██   ██ ██   ██    ███  ██   ██ ██   ██ ██   ██ ██    ██ ██    ██ ██
                         ███████ ███████   ███   ███████ ██████  ██   ██ ██    ██ ██    ██ ███████
@@ -17,5 +15,3 @@
 
                     This program connects to a NASA Open API and receives data about nearby asteroids
                     If any are marked as hazardous it sends an email with information about them
-
-                    ![Screenshot](screenshot.png)
