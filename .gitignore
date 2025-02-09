@@ -1,0 +1,10 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# macOS files
+.DS_Store
+
+# Build directories (Maven/Gradle)
+target/
+out/
