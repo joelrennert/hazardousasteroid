@@ -1,6 +1,6 @@
 package org.joelr;
 
-import org.joelr.api.NasaApiClient;
+import org.joelr.service.NasaApiClient;
 import org.joelr.model.NasaNeoResponse;
 import org.joelr.service.EmailService;
 import org.joelr.util.AsteroidInfoBuilder;
@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
    /*
+
         ██   ██  █████  ███████  █████  ██████  ██████   ██████  ██    ██ ███████
         ██   ██ ██   ██    ███  ██   ██ ██   ██ ██   ██ ██    ██ ██    ██ ██
         ███████ ███████   ███   ███████ ██████  ██   ██ ██    ██ ██    ██ ███████
@@ -25,10 +26,9 @@ import java.util.List;
 
     This program connects to a NASA Open API and receives data about nearby asteroids
     If any are marked as hazardous it sends an email with information about them
+                              made by Joel Rennert / 2023
 
    */
-
-
 
 public class AsteroidEmailer {
 
